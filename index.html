@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nova Digital helps businesses grow with modern web design and digital solutions.">
+  <title>Nova Digital | Creative Digital Agency</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home">Nova<span>Digital.</span></a>
+
+    <button class="menu-toggle" id="menu-toggle"
+      aria-label="Toggle navigation" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav id="nav-menu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact" class="nav-cta">Let's Talk</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">CREATIVE DIGITAL AGENCY</p>
+        <h1>We Build Digital<br>Experiences That <span>Matter.</span></h1>
+        <p class="hero-description">
+          We help brands turn bold ideas into beautiful websites
+          and meaningful digital experiences.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore Our Work ↗</a>
+          <a class="button secondary" href="#contact">Get In Touch</a>
+        </div>
+        <div class="hero-note">
+          <span class="status-dot"></span>
+          Creative thinking. Smart solutions.
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="visual-card">
+          <span class="visual-icon">✳</span>
+          <p>Ideas into reality.</p>
+          <span class="visual-label">DESIGN · DEVELOP · GROW</span>
+        </div>
+        <div class="floating-tag tag-top">✦ Creative Design</div>
+        <div class="floating-tag tag-bottom">↗ Digital Growth</div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <p class="eyebrow">WHO WE ARE</p>
+      <h2>Good ideas deserve<br><span>great execution.</span></h2>
+      <p class="section-description">
+        Nova Digital is a creative concept focused on building
+        useful, accessible, and engaging digital experiences.
+        We combine thoughtful design with modern web technologies.
+      </p>
+    </section>
+
+    <section class="services section" id="services">
+      <p class="eyebrow">WHAT WE DO</p>
+      <h2>Solutions built for <span>growth.</span></h2>
+
+      <div class="card-grid">
+        <article class="service-card">
+          <span class="card-number">01</span>
+          <h3>Web Design</h3>
+          <p>Clean, user-friendly interfaces that make a lasting impression.</p>
+          <span class="card-icon">◈</span>
+        </article>
+
+        <article class="service-card">
+          <span class="card-number">02</span>
+          <h3>Development</h3>
+          <p>Responsive websites built with modern web technologies.</p>
+          <span class="card-icon">⌘</span>
+        </article>
+
+        <article class="service-card">
+          <span class="card-number">03</span>
+          <h3>Digital Strategy</h3>
+          <p>Practical digital solutions designed around real user needs.</p>
+          <span class="card-icon">↗</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <p class="eyebrow">SELECTED WORK</p>
+      <h2>Ideas brought <span>to life.</span></h2>
+
+      <div class="project-grid">
+        <article class="project-card project-one">
+          <div class="project-art">N.</div>
+          <div class="project-info">
+            <div>
+              <h3>Brand Studio</h3>
+              <p>Branding & Web Design</p>
+            </div>
+            <span>↗</span>
+          </div>
+        </article>
+
+        <article class="project-card project-two">
+          <div class="project-art">✳</div>
+          <div class="project-info">
+            <div>
+              <h3>Digital Commerce</h3>
+              <p>UI Design & Development</p>
+            </div>
+            <span>↗</span>
+          </div>
+        </article>
+      </div>
+      <p class="project-disclaimer">
+        Concept projects for portfolio practice.
+      </p>
+    </section>
+
+    <section class="contact section" id="contact">
+      <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+      <h2>Let's create something<br><span>remarkable.</span></h2>
+      <p class="section-description">
+        Have an idea or a project to discuss? Send us a message.
+      </p>
+
+      <form id="contact-form">
+        <label for="name">Your name</label>
+        <input id="name" name="name" type="text"
+          placeholder="Enter your name" required>
+
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email"
+          placeholder="you@example.com" required>
+
+        <label for="message">Your message</label>
+        <textarea id="message" name="message" rows="4"
+          placeholder="Tell us about your project..." required></textarea>
+
+        <button class="button primary" type="submit">Send Message ↗</button>
+        <p id="form-status" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo" href="#home">Nova<span>Digital.</span></a>
+    <p>© <span id="year"></span> Nova Digital. Built with creativity.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+</body>
+</html>
